@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from 'next/image';
 
 function Hero() {
   return (
@@ -17,7 +17,12 @@ function Hero() {
         </h1>
       </div>
       <div className="lg:flex-1 relative w-full h-[50vh] justify-center">
-        {/* <Image src="/images/anime.png" alt="anime" fill className="object-contain" /> */}
+        <Image
+          src="/images/anime.png"
+          alt="anime"
+          fill
+          className="object-contain"
+        />
       </div>
     </header>
   );
