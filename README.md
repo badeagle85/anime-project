@@ -1,19 +1,9 @@
-nextjs14 
-jikan api 
-Infinite Scroll & Framer Motion Animations Test 
+# Build Modern Next 14 Server Side App with Server Actions, Infinite Scroll & Framer Motion Animations
 
+![Anime Website](https://i.ibb.co/MG1nbqt/YT-Thumbnails-2.png)
 
+### [🌟 Become a top 1% Next.js 14 developer in only one course](https://jsmastery.pro/next14)
+### [🚀 Land your dream programming job in 6 months](https://jsmastery.pro/masterclass)
+### [📙 Free Three.js Cheatsheet](https://resource.jsmastery.pro/threejs-cheatsheet)
+### [🌐 Best Hosting for Your Websites](https://hostinger.com/javascript10)
 
-## 셋팅
-- eslint 규칙
-  > npm install eslint-plugin-import --save-dev
-
-- prettier 추가 ( eslint 와 prettier 충돌 방지를 위해서)
-  > yarn add --dev --exact prettier
-
-
-- Eslint와 Prettier를 Typescript에도 적용시키기
-  > yarn add --dev @typescript-eslint/eslint-plugin @typescript-eslint/parser
-
-- Airbnb 룰 적용
-  > yarn add --dev eslint-config-airbnb eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react eslint-plugin-react-hooks

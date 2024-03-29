@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from 'next/image';
 
 function LoadMore() {
   return (
@@ -6,7 +6,7 @@ function LoadMore() {
       <section className="flex justify-center items-center w-full">
         <div>
           <Image
-            src="./images/spinner.svg"
+            src="/images/spinner.svg"
             alt="spinner"
             width={56}
             height={56}

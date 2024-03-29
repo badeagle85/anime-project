@@ -1,6 +1,6 @@
-import Image from "next/image";
+import Image from 'next/image';
 
-export type AnimeProp = {
+export interface AnimeProp {
   id: string;
   name: string;
   image: {
@@ -12,10 +12,12 @@ export type AnimeProp = {
   score: string;
 }
 
-function AnimeCard({ anime }:  {
+interface Prop {
   anime: AnimeProp;
   index: number;
-}) {
+}
+
+function AnimeCard({ anime }: Prop) {
   return (
     <div className="max-w-sm rounded relative w-full">
       <div className="relative w-full h-[37vh]">
@@ -23,7 +25,7 @@ function AnimeCard({ anime }:  {
           src={anime.image.original}
           alt={anime.name}
           fill
-          className="rounded-xl"
+          className="rounded-xl object-cover"
         />
       </div>
       <div className="py-4 flex flex-col gap-3">
@@ -40,7 +42,7 @@ function AnimeCard({ anime }:  {
         <div className="flex gap-4 items-center">
           <div className="flex flex-row gap-2 items-center">
             <Image
-              src="./images/episodes.svg"
+              src="/images/episodes.svg"
               alt="episodes"
               width={20}
               height={20}
@@ -52,7 +54,7 @@ function AnimeCard({ anime }:  {
           </div>
           <div className="flex flex-row gap-2 items-center">
             <Image
-              src="./images/star.svg"
+              src="/images/star.svg"
               alt="star"
               width={18}
               height={18}
