@@ -1,6 +1,7 @@
 ## nextjs14
 
-## jikan api
+## api
+https://shikimori.one/api/doc/1.0/animes/index
 
 ## Infinite Scroll
 
